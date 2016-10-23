@@ -1,3 +1,6 @@
+/*
+GitHub: http://github.com/SkorkaBence/ProgalapBeadando
+*/
 #include <iostream>
 #include <string>
 
