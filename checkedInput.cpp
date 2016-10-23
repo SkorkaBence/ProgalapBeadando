@@ -13,7 +13,7 @@ int main()
 
     bool hiba = false;
     do {
-        //cerr << "Add meg a tanulok szamat!" << endl;
+        cerr << "Add meg a tanulok szamat!" << endl;
         cin >> tanulokSzama;
         hiba = cin.fail();
         if (!hiba) {
@@ -33,7 +33,7 @@ int main()
     }
 
     do {
-        //cerr << "Add meg a versenyek szamat!" << endl;
+        cerr << "Add meg a versenyek szamat!" << endl;
         cin >> versenyekSzama;
         hiba = cin.fail();
         if (!hiba) {
@@ -50,7 +50,7 @@ int main()
 
     for (int i = 0; i < versenyekSzama; i++) {
         do {
-            //cerr << "Add meg a " << (i+1) << ". verseny minimum pontszamat!" << endl;
+            cerr << "Add meg a " << (i+1) << ". verseny minimum pontszamat!" << endl;
             cin >> minimumPontszamok[i];
             hiba = cin.fail();
             if (!hiba) {
@@ -69,7 +69,7 @@ int main()
     for (int i = 0; i < versenyekSzama; i++) {
         int indultTanulokSzama;
         do {
-            //cerr << "Add meg az indult tanulok szamat!" << endl;
+            cerr << "Add meg az indult tanulok szamat!" << endl;
             cin >> indultTanulokSzama;
             hiba = cin.fail();
             if (!hiba) {
@@ -88,7 +88,7 @@ int main()
             int pontszam;
 
             do {
-                //cerr << "Add meg a tanulo azonositot!" << endl;
+                cerr << "Add meg a tanulo azonositot!" << endl;
                 cin >> tanuloid;
                 hiba = cin.fail();
                 if (!hiba) {
@@ -104,7 +104,7 @@ int main()
             } while (hiba);
 
             do {
-                //cerr << "Add meg az elert pontot!" << endl;
+                cerr << "Add meg az elert pontot!" << endl;
                 cin >> pontszam;
                 hiba = cin.fail();
                 if (!hiba) {
@@ -129,7 +129,7 @@ int main()
     for (int i = 0; i < tanulokSzama; i++) {
         if (!atment[i]) {
             num++;
-
+		}
     }
     cout << num;
     for (int i = 0; i < tanulokSzama; i++) {
