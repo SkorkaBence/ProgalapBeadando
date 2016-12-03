@@ -121,7 +121,7 @@ void beolvasas(Verseny versenyek[], Tanulo tanulok[maxN], int &versenyekSzama, i
         for (int j = 0; j < indultTanulokSzama; j++) {
             // a versenyen induló pontszámainak bekérdezése
             cerr << (i+1) << ". verseny " << (j+1) << ". indulojanak azonositoja: ";
-            integerBeolvasas_MinMax(tanuloid, 1, tanulokSzama + 1);
+            integerBeolvasas_MinMax(tanuloid, 1, tanulokSzama);
             cerr << "Es pontszama: ";
             integerBeolvasas_Min(pontszam, 0);
 
